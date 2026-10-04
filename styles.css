@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KCAPEX LLC is a small business federal prime contractor helping agencies and subcontractors win, manage, and perform government work."
+    />
+    <title>KCAPEX LLC | Government Contracting, Simplified</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="KCAPEX home">
+          <span class="brand-mark">K</span>
+          <span class="brand-text">KCAPEX LLC</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#subcontractors">For Subcontractors</a>
+          <a href="#contact">Contact</a>
+          <a class="button button-primary nav-cta" href="#quote">Request a Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">PRIME GOVERNMENT CONTRACTOR</p>
+            <h1>Government contracting without the confusion.</h1>
+            <p class="lead">
+              KCAPEX LLC is a small business prime contractor for federal, state, and local agency work,
+              helping clients get the job done with vetted local crews and one accountable partner.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#quote">Request a Quote</a>
+              <a class="button button-secondary" href="#subcontractors">Subcontractor Sign-Up</a>
+            </div>
+            <ul class="mini-list" aria-label="Key advantages">
+              <li>One point of accountability</li>
+              <li>Licensed local crews</li>
+              <li>Compliance handled correctly</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card">
+              <p class="card-label">KCAPEX LLC</p>
+              <h2>Built for government work.</h2>
+              <div class="stat-grid">
+                <div>
+                  <strong>10</strong>
+                  <span>federal awards since 2026</span>
+                </div>
+                <div>
+                  <strong>5</strong>
+                  <span>agencies served</span>
+                </div>
+                <div>
+                  <strong>0</strong>
+                  <span>rejected invoices, cure notices, or terminations</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="container narrow">
+          <p class="section-kicker">WHY WE EXIST</p>
+          <h2>We make the procurement process manageable.</h2>
+          <p>
+            We read the solicitation, build the compliant price, manage the paperwork, and bring in the right
+            local subcontractors to perform the work. You do the work. We procure the work.
+          </p>
+        </div>
+      </section>
+
+      <section class="section values">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">OUR MODEL</p>
+            <h2>Commercial market vs. government market</h2>
+          </div>
+
+          <div class="two-column-grid">
+            <div class="info-card">
+              <h3>Commercial Market</h3>
+              <ul>
+                <li>Rewards specialists</li>
+                <li>Reputation sets your price</li>
+                <li>A handshake changes the scope</li>
+              </ul>
+            </div>
+
+            <div class="info-card accent">
+              <h3>Federal Market</h3>
+              <ul>
+                <li>Everyone prices the same written scope</li>
+                <li>Best value wins, usually the best price</li>
+                <li>Only the contracting officer changes scope in writing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">WHAT WE DO</p>
+            <h2>A broad set of facility and service work.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-item"><span>01</span><h3>Janitorial & custodial services</h3></article>
+            <article class="service-item"><span>02</span><h3>Building component replacement</h3></article>
+            <article class="service-item"><span>03</span><h3>Mold remediation & restoration</h3></article>
+            <article class="service-item"><span>04</span><h3>HVAC & water systems</h3></article>
+            <article class="service-item"><span>05</span><h3>Moving, hauling & disposal</h3></article>
+            <article class="service-item"><span>06</span><h3>Construction & repair trades</h3></article>
+            <article class="service-item"><span>07</span><h3>Grounds & site work</h3></article>
+            <article class="service-item"><span>08</span><h3>Equipment, supplies & support services</h3></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="section-kicker">ABOUT</p>
+            <h2>Built by KCAPEX. Led by Chelsea Neely and Kobe Williams.</h2>
+            <p>
+              KCAPEX LLC is a small business federal prime contractor based in Merrillville, Indiana. We find
+              the federal work, handle the solicitation, pricing, and compliance, and team with local trades who
+              do the job.
+            </p>
+          </div>
+
+          <div class="people-grid">
+            <article class="person-card">
+              <h3>Chelsea Neely</h3>
+              <p class="role">Owner</p>
+              <ul>
+                <li>Lead on proposals, pricing, and compliance</li>
+                <li>Federal pipeline from first award to active agency work</li>
+                <li>OSHA and ServSafe certified</li>
+              </ul>
+            </article>
+
+            <article class="person-card">
+              <h3>Kobe Williams</h3>
+              <p class="role">Co-Owner</p>
+              <ul>
+                <li>Final bid pricing signoff</li>
+                <li>Teaming partner relationships and subcontract management</li>
+                <li>Class A CDL and trucking business experience</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="subcontractors">
+        <div class="container split-layout">
+          <div>
+            <p class="section-kicker">FOR SUBCONTRACTORS</p>
+            <h2>We work with local trades the right way.</h2>
+            <p>
+              KCAPEX bids and manages federal, state, and local contracts, then performs them with local
+              subcontractors like you. You keep doing what you already do well. We handle registration,
+              proposals, compliance, invoicing, and the contracting office.
+            </p>
+            <ul class="check-list">
+              <li>Send us your information and pricing</li>
+              <li>We match you to solicitations</li>
+              <li>We bid as the prime contractor</li>
+              <li>You perform, we manage</li>
+            </ul>
+          </div>
+
+          <div class="quote-box" id="quote">
+            <h3>Send us your pricing</h3>
+            <p>Government pricing only. Send the price you would quote to win a competitive job.</p>
+            <form action="mailto:kcapexllc@gmail.com" method="post" enctype="text/plain">
+              <label>
+                Company name
+                <input type="text" name="company" placeholder="Your company" />
+              </label>
+              <label>
+                Contact name
+                <input type="text" name="contact" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="name@example.com" />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" placeholder="(555) 123-4567" />
+              </label>
+              <label>
+                Trades or services
+                <input type="text" name="trades" placeholder="Janitorial, painting, HVAC..." />
+              </label>
+              <label>
+                How you price your work
+                <input type="text" name="pricing" placeholder="Hourly, per square foot, per job..." />
+              </label>
+              <button type="submit" class="button button-primary">Send My Information</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="container narrow">
+          <p class="section-kicker">WHY DOESN'T THE GOVERNMENT JUST CALL ME DIRECTLY?</p>
+          <h2>The procurement process is designed to be competitive and compliant.</h2>
+          <p>
+            Federal buyers cannot legally hand-pick a contractor without competition. They must post the job,
+            verify registration, and award to the most responsive and responsible offer. That is where KCAPEX
+            fits: we manage the process so local trade partners can focus on the work.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>KCAPEX LLC</h3>
+          <p>1741 W 86th Lane, Merrillville, IN 46410</p>
+          <p>
+            <a href="mailto:kcapexllc@gmail.com">kcapexllc@gmail.com</a><br />
+            <a href="tel:+12193336902">(219) 333-6902</a>
+          </p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#subcontractors">For Subcontractors</a></li>
+            <li><a href="#quote">Request a Quote</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company Data</h4>
+          <ul>
+            <li>UEI: PCATNSPCZFE9</li>
+            <li>CAGE: 190W7</li>
+            <li>Business size: Small business</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> KCAPEX LLC. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
